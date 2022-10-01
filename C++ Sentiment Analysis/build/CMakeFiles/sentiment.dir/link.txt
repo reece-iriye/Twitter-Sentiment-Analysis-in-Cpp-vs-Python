@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/sentiment.dir/main.cpp.o CMakeFiles/sentiment.dir/DSString.cpp.o CMakeFiles/sentiment.dir/Twitter.cpp.o CMakeFiles/sentiment.dir/Word.cpp.o -o sentiment 

@@ -1,0 +1,3 @@
+/Users/reece/Desktop/cs2341/assignment2/assignment-2-don-t-be-sentimental-ririye01/build/CMakeFiles/sentiment.dir
+/Users/reece/Desktop/cs2341/assignment2/assignment-2-don-t-be-sentimental-ririye01/build/CMakeFiles/edit_cache.dir
+/Users/reece/Desktop/cs2341/assignment2/assignment-2-don-t-be-sentimental-ririye01/build/CMakeFiles/rebuild_cache.dir

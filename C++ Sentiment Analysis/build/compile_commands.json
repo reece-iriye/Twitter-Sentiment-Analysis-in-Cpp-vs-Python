@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/Users/reece/Desktop/cs2341/assignment2/assignment-2-don-t-be-sentimental-ririye01/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wall -Wextra -pedantic -std=gnu++17 -o CMakeFiles/sentiment.dir/main.cpp.o -c /Users/reece/Desktop/cs2341/assignment2/assignment-2-don-t-be-sentimental-ririye01/main.cpp",
+  "file": "/Users/reece/Desktop/cs2341/assignment2/assignment-2-don-t-be-sentimental-ririye01/main.cpp"
+},
+{
+  "directory": "/Users/reece/Desktop/cs2341/assignment2/assignment-2-don-t-be-sentimental-ririye01/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wall -Wextra -pedantic -std=gnu++17 -o CMakeFiles/sentiment.dir/DSString.cpp.o -c /Users/reece/Desktop/cs2341/assignment2/assignment-2-don-t-be-sentimental-ririye01/DSString.cpp",
+  "file": "/Users/reece/Desktop/cs2341/assignment2/assignment-2-don-t-be-sentimental-ririye01/DSString.cpp"
+},
+{
+  "directory": "/Users/reece/Desktop/cs2341/assignment2/assignment-2-don-t-be-sentimental-ririye01/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wall -Wextra -pedantic -std=gnu++17 -o CMakeFiles/sentiment.dir/Twitter.cpp.o -c /Users/reece/Desktop/cs2341/assignment2/assignment-2-don-t-be-sentimental-ririye01/Twitter.cpp",
+  "file": "/Users/reece/Desktop/cs2341/assignment2/assignment-2-don-t-be-sentimental-ririye01/Twitter.cpp"
+},
+{
+  "directory": "/Users/reece/Desktop/cs2341/assignment2/assignment-2-don-t-be-sentimental-ririye01/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.1 -Wall -Wextra -pedantic -std=gnu++17 -o CMakeFiles/sentiment.dir/Word.cpp.o -c /Users/reece/Desktop/cs2341/assignment2/assignment-2-don-t-be-sentimental-ririye01/Word.cpp",
+  "file": "/Users/reece/Desktop/cs2341/assignment2/assignment-2-don-t-be-sentimental-ririye01/Word.cpp"
+}
+]
