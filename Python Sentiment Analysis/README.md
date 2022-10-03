@@ -33,9 +33,16 @@ Additionally, by plotting b0 + b1(Positive Appearances) + b2(Negative Appearance
 ![alt text](https://github.com/ririye01/Twitter-Sentiment-Analysis-in-Cpp-vs-Python/blob/main/Python%20Sentiment%20Analysis/Classification%20Plots/Testing%20Data%20Logistic%20Regression.png)  
 
 ## Alternative Method: TF-IDF (Term Frequency-Inverse Document Frequency) 📚
-TF-IDF is an alternative approach for feature extraction than the one I used in C++ and in my 1st Python implementation. 
-
+TF-IDF is an alternative approach for feature extraction than the one I used in C++ and in my 1st Python implementation. In this implementation, each column in our numerical matrix of training and testing data is representative of a word in our dictionary. The TF-IDF of each word within each Tweet is then represented.  
+TF-IDF is calculated using the product of two terms: TF (Term Frequency) and IDF (Inverse Document Frequency).  
+  
+  TF = number of times word appears in Tweet / number of words in Tweet  
+  IDF = log(total tweets / (1 + number of tweets where word appears in training dataset))  
+  TF-IDF = TF * IDF  
+  
+TF-IDF proportionally increases as the appearances of a word in a specific Tweet increases, and it proportionally decreases as the number of the word's appearances in the training set increases.  
+### Results
+Using the same methods for data-wrangling and Logistic Regression, we achieve an accuracy
 
 ## Take-Aways 💡
-While my approach had some flaws, and adjustments in both my feature extraction model and my data cleaning methods could have been made to improve the accuracy, I am very happy with my Classification model and how I implemented a machine learning model from scratch in C++. Keeping track of my variables was difficult, especially when I resorted to using several 2D-DSVectors, but I definitely strengthened my ability to visualize data and dissect 
-After finishing this project in C++, that's where I decided to segue over to Python and observe my results over there. 
+Implementing the TF-IDF method made me aware of how powerful it is in 
