@@ -33,6 +33,7 @@ Additionally, by plotting b0 + b1(Positive Appearances) + b2(Negative Appearance
 ![alt text](https://github.com/ririye01/Twitter-Sentiment-Analysis-in-Cpp-vs-Python/blob/main/Python%20Sentiment%20Analysis/Classification%20Plots/Testing%20Data%20Logistic%20Regression.png)  
 
 ## Alternative Method: TF-IDF (Term Frequency-Inverse Document Frequency) 📚
+### Understanding TF-IDF
 TF-IDF is an alternative approach for feature extraction than the one I used in C++ and in my 1st Python implementation. In this implementation, each column in our numerical matrix of training and testing data is representative of a word in our dictionary. The TF-IDF of each word within each Tweet is then represented.  
 TF-IDF is calculated using the product of two terms: TF (Term Frequency) and IDF (Inverse Document Frequency).  
   
@@ -42,7 +43,10 @@ TF-IDF is calculated using the product of two terms: TF (Term Frequency) and IDF
   
 TF-IDF proportionally increases as the appearances of a word in a specific Tweet increases, and it proportionally decreases as the number of the word's appearances in the training set increases.  
 ### Results
-Using the same methods for data-wrangling and Logistic Regression, we achieve an accuracy
-
+Using the same methods for data-wrangling and Logistic Regression, we achieve a Testing Accuracy of 76.58%, which is a significant increase in comparison to our previous mode!
+### Visualizing TF-IDF Logistic Regression
+I'm not able to plot each individual variable, because now there are thousands of variables that all are representative of a word in the training set dictionary. However, I still am able to plot the Logistic Regression model by condensing all variables down to one calculation:
+![alt text](https://github.com/ririye01/Twitter-Sentiment-Analysis-in-Cpp-vs-Python/blob/main/Python%20Sentiment%20Analysis/Classification%20Plots/TFIDF%20Testing%20Data%20Logistic%20Regression%20.png)
+Even in this plot, we can see that the sentiments of positive and negative Tweets are predicted more correctly because of the TF-IDF means of feature extraction.
 ## Take-Aways 💡
-Implementing the TF-IDF method made me aware of how powerful it is in 
+Implementing the TF-IDF method made me aware of how powerful the method really is in the context of Natural Language Processing and Machine Learning. Additionally, by plotting decision boundaries and logistic regression models, I can better explain how classification works in general and how it specifically works in this context.
