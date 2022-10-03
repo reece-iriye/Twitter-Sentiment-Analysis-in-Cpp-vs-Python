@@ -644,11 +644,6 @@ DSVector<DSVector<double>> Twitter::numerical_data(
         // Input row into our 2D vector
         bufferRow.push_back(positiveAppearancesBuffer);
         bufferRow.push_back(negativeAppearancesBuffer);
-//        // DEBUG
-//        bufferRow.push_back(positiveTotalBuffer);
-//        bufferRow.push_back(negativeTotalBuffer);
-//        // DEBUG
-
 
         matrix.push_back(bufferRow);
 
