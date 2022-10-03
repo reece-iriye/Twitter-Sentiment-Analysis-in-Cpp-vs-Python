@@ -11,15 +11,18 @@ After reading in the training set using Pandas, I cleaned the Tweets by doing th
 5. Stemming to equate words like "eat", "eats", and "eating" all to "eat"
 ### Created Positive and Negative WordCloud Plots
 I used the WordCloud library to plot two images. The first image contains words that tend to pop up in positive Tweets with each word scaled larger based on its frequency within the entire training set. The other image performs the same task but with negative words instead.
-![alt text](https://github.com/ririye01/Twitter-Sentiment-Analysis-in-Cpp-vs-Python/blob/main/Python%20Sentiment%20Analysis/Classification%20Plots/Positive%20v%20Negative%20WordCloud.png)
+![alt text](https://github.com/ririye01/Twitter-Sentiment-Analysis-in-Cpp-vs-Python/blob/main/Python%20Sentiment%20Analysis/Classification%20Plots/Positive%20v%20Negative%20WordCloud.png)  
+
+
 ### Feature Extraction
 Create a (20,000 x 3) matrix that translates Tweets to measurable, quantifiable data in a 2D matrix where the first column is filled with 1's, the second column is filled with total positive appearances for each word within the training set, and the third column denotes the total negative appearances for each word. Plotting positive appearances by negative appearances, we get the following graph:
-![alt text](https://github.com/ririye01/Twitter-Sentiment-Analysis-in-Cpp-vs-Python/blob/main/Python%20Sentiment%20Analysis/Classification%20Plots/Testing%20Data%20Plot.png)
+![alt text](https://github.com/ririye01/Twitter-Sentiment-Analysis-in-Cpp-vs-Python/blob/main/Python%20Sentiment%20Analysis/Classification%20Plots/Testing%20Data%20Plot.png)  
+
 ### Generate Logistic Regression Parameters using Scikit-Learn
 Using scikit-learn to train our Logistic Regression model and testing it on the training data, we get a 68.55% accuracy, which is really similar to the percentage accuracy on my C++ implementation of Logistic Regression.
 ### Visualizing Logistic Regression
 By fitting a Logistic Regression plot to our previous training data graph, we get a decision boundary that divides predictions into sections of negative predictions and positive predictions.
-![alt text](https://github.com/ririye01/Twitter-Sentiment-Analysis-in-Cpp-vs-Python/blob/main/Python%20Sentiment%20Analysis/Classification%20Plots/Training%20Data%20Decision%20Boundary%20Prediction.png)
+![alt text](https://github.com/ririye01/Twitter-Sentiment-Analysis-in-Cpp-vs-Python/blob/main/Python%20Sentiment%20Analysis/Classification%20Plots/Training%20Data%20Decision%20Boundary%20Prediction.png)  
 
 Visualizing our Testing Data now, we can apply the exact same decision boundary using our Logistic Regression plot. 
 ![alt text](https://github.com/ririye01/Twitter-Sentiment-Analysis-in-Cpp-vs-Python/blob/main/Python%20Sentiment%20Analysis/Classification%20Plots/Testing%20Data%20Plot.png)
