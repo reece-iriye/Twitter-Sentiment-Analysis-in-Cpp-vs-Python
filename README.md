@@ -1,2 +1,3 @@
-# Twitter Sentiment Analysis in C++ vs. Python
- Implemented a Logistic Regression model using Gradient Descent to classify whether tweets have a positive or negative sentiment associated with them. I used C++ at first to understand all the data-wrangling, training, and testing processes using Natural Language Processing and Machine Learning. Then, I used similar methods in Python to better understand the full capabilites of NLP so I could achieve a higher testing accuracy.
+# Python: Twitter Sentiment Analysis with Logistic Regression
+## Overview
+ Implemented a Logistic Regression model using Gradient Descent to classify whether tweets have a positive or negative sentiment associated with them. I used C++ at first to understand all the data-wrangling, feature extraction, training, and testing processes using Natural Language Processing and Machine Learning. Then, I used similar methods in Python to better understand the full capabilites of NLP using data visualizations and TF-IDF, so I could achieve a higher testing accuracy and understand the classification process on a deeper level.
