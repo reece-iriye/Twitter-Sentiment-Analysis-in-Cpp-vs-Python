@@ -14,9 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f883fd4-d6de-42de-b789-ac56dc6d51c2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Python Sentiment Analysis/sentiment_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Python Sentiment Analysis/sentiment_analysis.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="0f883fd4-d6de-42de-b789-ac56dc6d51c2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,7 +102,7 @@
       <workItem from="1662921029389" duration="314319000" />
       <workItem from="1664406202353" duration="28891000" />
       <workItem from="1664650179553" duration="7000" />
-      <workItem from="1664650788465" duration="1135000" />
+      <workItem from="1664650788465" duration="1641000" />
     </task>
     <servers />
   </component>
