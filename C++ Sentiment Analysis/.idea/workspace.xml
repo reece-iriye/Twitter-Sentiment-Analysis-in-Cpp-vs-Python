@@ -23,7 +23,6 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -65,7 +64,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -78,11 +77,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="sentiment" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="data/train_dataset_20k.csv data/test_dataset_10k.csv data/test_dataset_sentiment_10k.csv Testing_Predictions.txt Testing_Results.txt" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Assignment2_sentiment" TARGET_NAME="sentiment" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Assignment2_sentiment" RUN_TARGET_NAME="sentiment">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -102,7 +96,10 @@
       <workItem from="1662921029389" duration="314319000" />
       <workItem from="1664406202353" duration="28891000" />
       <workItem from="1664650179553" duration="7000" />
-      <workItem from="1664650788465" duration="1641000" />
+      <workItem from="1664650788465" duration="2685000" />
+      <workItem from="1664859778621" duration="569000" />
+      <workItem from="1664860400723" duration="83000" />
+      <workItem from="1664860517131" duration="126000" />
     </task>
     <servers />
   </component>
