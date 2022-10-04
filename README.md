@@ -70,7 +70,7 @@ TF-IDF proportionally increases as the appearances of a word in a specific Tweet
 Using the same methods for data-wrangling and Logistic Regression, we achieve a Testing Accuracy of 76.58%, which is a significant increase in comparison to our previous mode!
 ### Visualizing TF-IDF Logistic Regression
 I'm not able to plot each individual variable, because now there are thousands of variables that all are representative of a word in the training set dictionary. However, I still am able to plot the Logistic Regression model by condensing all variables down to one calculation:
-![alt text](https://github.com/ririye01/Twitter-Sentiment-Analysis-in-Cpp-vs-Python/blob/main/Python%20Sentiment%20Analysis/Classification%20Plots/TFIDF%20Testing%20Data%20Logistic%20Regression%20.png)
+![alt text](https://github.com/ririye01/Twitter-Sentiment-Analysis-in-Cpp-vs-Python/blob/main/Python%20Sentiment%20Analysis/Classification%20Plots/TFIDF%20Testing%20Data%20Logistic%20Regression%20.png)  
 Even in this plot, we can see that the sentiments of positive and negative Tweets are predicted more correctly because of the TF-IDF means of feature extraction.
 ## Take-Aways 💡
 Implementing the TF-IDF method made me aware of how powerful the method really is in the context of Natural Language Processing and Machine Learning. Additionally, by plotting decision boundaries and logistic regression models, I can better explain how classification works in general and how it specifically works in this context.
